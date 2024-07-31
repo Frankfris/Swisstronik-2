@@ -12,7 +12,7 @@ const sendShieldedTransaction = async (signer, destination, data, value) => {
 };
 
 async function main() {
-  const contractAddress = "";
+  const contractAddress = "0xaC23f500802b653B7AEa60859D3cD0d8Eafb2B08";
   const [signer] = await hre.ethers.getSigners();
 
   const contractFactory = await hre.ethers.getContractFactory("TestToken");
